@@ -1,0 +1,172 @@
+#semester: 0秋，1春，2夏，3春/秋, 4 any
+#generic: 是否满足总分需求，无论情况就能毕业
+#仅包含了计算学部方面的要求
+- type: 必修
+  generic: false
+  required:
+    - name: 思想道德修养与法律基础
+      score: 2
+      semester: 0
+    - name: 中国近现代史纲要
+      score: 2
+      semester: 1
+    - name: 马克思主义基本原理概论
+      score: 3
+      semester: 1
+    - name: 毛泽东思想和中国特色社会主义理论体系概论
+      score: 4
+      semester: 0
+    - name: 形式与政策
+      score: 1
+      semester: 3
+    - name: 军训及军事理论
+      score: 3
+      semester: 0
+    - name: 大学外语
+      score: 6
+      semester: 3
+    - name: 体育
+      score: 3
+      semester: 3
+    - name: 微积分A
+      score: 13
+      semester: 3
+    - name: 代数与几何A
+      score: 4.5
+      semester: 0
+    - name: 概率论与数理统计B
+      score: 4
+      semester: 0
+    - name: 生命科学基础与应用
+      score: 1
+      semester: 0
+    - name: 大学物理A(1)
+      score: 6
+      semester: 1
+    - name: 大学物理实验A(1)
+      score: 1.5
+      semester: 0
+- type: 专业限选
+  generic: false
+  required:
+    - name: 计算机网络
+      score: 3
+      semester: 0
+    - name: 人工智能，机器学习
+      score: 3
+      semester: 0
+    - name: 数据库系统
+      score: 3
+      semester: 1
+    - name: 编译系统
+      score: 3
+      semester: 1
+- type: 专业核心
+  generic: false
+  required:
+    - name: 核心课1
+      score: 4.5
+      semester: 0
+    - name: 核心课2
+      score: 4.5
+      semester: 1
+    - name: 核心课3
+      score: 3
+      semester: 0
+- type: 专业必修
+  generic: false
+  required:
+    - name: 集合论与图论
+      score: 4
+      semester: 1
+    - name: 数理逻辑
+      score: 2
+      semester: 0
+    - name: 近世代数
+      score: 2
+      semester: 1
+    - name: 计算方法
+      score: 2.5
+      semester: 1
+    - name: 计算机专业导论
+      score: 2
+      semester: 0
+    - name: 高级语言程序设计
+      score: 3
+      semester: 0
+    - name: 数字逻辑与数字系统设计
+      score: 3.5
+      semester: 1
+    - name: 算法设计与分析
+      score: 3
+      semester: 1
+    - name: 数据结构与算法
+      score: 3.5
+      semester: 0
+    - name: 计算机系统
+      score: 5
+      semester: 0
+    - name: 软件构造
+      score: 5
+      semester: 1
+    - name: 形式语言与自动机
+      score: 
+      semester: 1
+    - name: 信息安全概论
+      score: 2
+      semester: 1
+- type: 夏季学期必修
+  generic: false
+  required:
+    - name: 短期实训
+      score: 2
+      semester: 2
+    - name: 独立学习与技术交流
+      score: 1
+      semester: 2
+    - name: 领导力训练
+      score: 1
+      semester: 1
+- type: 国际化
+  generic: true
+  required:
+    - name: 国际化(可共享)
+      score: 1
+      semester: 4
+- type: 专业选修
+  generic: true
+  required:
+    - name: 专业选修
+      score: 12
+      semester: 4
+- type: 外专业
+  generic: true
+  required:
+    - name: 外专业课程
+      score: 6
+      semester: 4
+- type: 素质核心
+  generic: true
+  required:
+    - name: 素质核心,人文社科,MOOC
+      score: 4
+      semester: 4
+- type: 素质选修
+  generic: true
+  required:
+    - name: 素质核心,素质选修,新生研讨,全校任选,人文社科,MOOC
+      score: 5
+      semester: 4
+- type: 素质讲座
+  generic: true
+  required:
+    - name: 素质讲座
+      score: 1
+      semester: 4  
+- type: 创新创业
+  generic: true
+  required:
+    - name: 创新创业,创新学分课程,创新MOOC,创新研修,创新实验
+      score: 5
+      semester: 4   
+      
