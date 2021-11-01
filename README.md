@@ -37,4 +37,4 @@
 
 ## 贡献代码和培养方案
 
-请Fork后Pull Request。
+请Fork后Pull Request。请自行验证培养方案的有效性。
